@@ -1,0 +1,457 @@
+:root{
+    --bs-blue:#0d6efd;
+    --bs-indigo:#6610f2;
+    --bs-purple:#6f42c1;
+    --bs-pink:#d63384;
+    --bs-red:#dc3545;
+    --bs-orange:#fd7e14;
+    --bs-yellow:#ffc107;
+    --bs-green:#09693c;
+    --bs-teal:#20c997;
+    --bs-cyan:#0dcaf0;
+    --bs-white:#fff;
+    --bs-gray:#6c757d;
+    --bs-gray-dark:#343a40;
+    --bs-primary:#0d6efd;
+    --bs-secondary:#6c757d;
+    --bs-success:#198754;
+    --bs-info:#0dcaf0;
+    --bs-warning:#ffc107;
+    --bs-danger:#dc3545;
+    --bs-light:#f8f9fa;
+    --bs-dark:#212529;
+    --bs-chan:#b3eef8;
+}
+
+html,body{
+	overflow-x:hidden;
+}
+
+
+/* buttom costum */
+
+#btn-primary{
+    background-color: var(--bs-dark);
+    padding: 10px;
+    border-radius: 7px;
+    color: var(--bs-light);
+    font-size: 15px;
+}
+
+#btn-primary:hover{
+   background-color: var(--bs-gray-dark);
+}
+
+a{
+    color: var(--bs-light);
+    text-decoration: none;
+}
+
+/* end button costum */
+
+/* body style */
+
+body{
+    background-color: var(--bs-light);
+}
+
+/* end body */
+
+/* nav style */
+nav{
+    margin-top: 5px;
+    background-color: var(--bs-light);
+}
+
+nav .grup-text{
+    padding: 0;
+}
+
+nav .grup-text p{
+    position: relative;
+    top: 8px;
+    font-size: 20px;
+    height: 100%;
+}
+
+.nav .wrapper-nav {
+    list-style-type : none;
+    display:flex;
+    justify-content:end;
+    align-items:center;
+    height: 100%;
+    gap:30px;  
+}
+
+.nav .wrapper-nav li a{
+    font-size:14px;
+    text-decoration: none;
+    text-transform:capitalize;
+    color: var(--bs-dark);
+}
+
+.nav ul li a:hover{
+    color: #2b2b2b;
+}
+
+
+nav .grup-text span{
+    font-weight: 700; 
+    color: var(--bs-orange);
+}
+
+nav ul .btnCall{
+   border: 1px solid #000;
+   color: var(--bs-light);
+   font-size: 15px;
+   border-radius: 5px;
+   height: 100%;
+   width: 120px;
+   padding: 6px;
+}
+
+
+nav .btn-contact{
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--bs-light);
+    height: 100%;
+    
+ }
+
+nav ul .btnCall:hover{
+    background-color: var(--bs-gray-dark);
+    color: var(--bs-light)!important;
+}
+
+/* Untuk Hero */
+
+#hero {
+    /* border: 1px solid #000;
+    background-image: url('/assets/img/hero-image.png');
+    background-size: cover;
+    background-position: center; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#hero .grup-text span{
+    color: var(--bs-orange);
+    font-weight: 700;
+}
+
+#hero .grup-text h1{
+    font-weight: 800;
+}
+
+#hero .btn{
+   background-color: var(--bs-green);
+   padding: 8px;
+   color: var(--bs-light);
+   font-size: 12px;
+}
+
+#hero .image-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .image-hero img{
+   max-width: 80%;
+   border-bottom-right-radius : 10px;
+  
+}
+
+#hero .btn-grup {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+}
+
+#hero .btn-grup .btn-play {
+  margin-left: 20px;
+  background-color: var(--bs-orange);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+#hero .btn-grup .btn-play img {
+    width: 15px;
+    margin-left: 13px;
+    margin-top: 12px;
+  }
+
+#hero .btn-grup .box{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+
+#hero span {
+   margin-left: 10px;
+  }
+
+  #hero span a {
+   color: var(--bs-dark);
+   font-weight: 600;
+   }
+/* Hero end */
+
+
+.content .card-body .fa-calendar-alt, 
+.content .card-body .fa-clock , 
+.content .card-body .fa-map-marker-alt{
+    color: var(--bs-orange);
+    margin-top: 20px;
+}
+
+/* .content .card-body img{
+    height: 250px;
+} */
+
+/* form register */
+
+.register .card .card-body .first-info{
+    display:flex;
+    gap: 15px;
+}
+
+.register .card .card-body .second-info .info-lagu-pilihan {
+    display:flex;
+    align-items: left;
+    gap: 5px;
+    font-size: 13px;
+}
+
+.register .card .card-body .second-info .info-lagu-pilihan div {
+   display: flex;
+   gap: 5px;
+   
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform:capitalize;
+}
+
+.register .card .card-body{
+    margin: 0;
+    padding: 0;
+}
+
+.register .card .card-body .first-info div{
+   width: 100%;
+  
+}
+
+select {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 5px;                                                                                                                                                                                                  ;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    box-sizing: border-box;                                                                                                         
+}
+
+option{
+    padding: 12px 20px;
+}
+
+input[type=text]{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: arial;
+    color: #333;
+    width: 100%;
+}
+
+input[type=file]{
+     font-size: 13px;
+}
+
+/* input[type='radio'] + label::before {
+   content: '';
+   position: absolute;
+   left: 0;
+   right: 0;
+   width: 20px;
+   height: 20px;
+   border: 2px solid #000;
+   border-radius: 50%;
+} */
+
+
+.register .card .card-body span{
+    font-size: 10px;
+    text-transform: uppercase;
+
+}
+
+
+/* end register */
+
+    @media (max-width:1199px){
+
+        nav p{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        nav .wrapper-nav{
+            padding: 0px;
+            flex-direction: column;
+            margin: 0;
+        }
+
+        nav ul li{
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+        }
+
+        nav{
+        position:fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        /* form register */
+
+        .register img{
+            max-width: 100%;
+            height: auto;
+            
+        }
+
+        .register .card-body .first-info{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .register .card .card-body .info-lagu-pilihan{
+            display:flex;
+            flex-direction: column;
+            align-items: left;
+            gap: 5px;
+            font-size: 13px;
+        }
+        /* end form register */
+    }
+
+/* end style nav */
+
+
+/* style for phone */
+    @media(max-width:1178px){
+        .nav .wrapper-nav,
+        .nav .grup-text{
+            display: none;
+        }
+    }
+
+    @media(max-width:992px){
+        #hero .colom-reverse {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .content .card-right{
+            margin-top: 20px;
+        }
+    }
+
+
+    @media (max-width : 397px) {
+        #hero .image-hero img{
+            max-width:100%;
+            margin-bottom: 20px;
+            margin-top: 0;
+        }
+
+        #hero .container-fluid{
+            padding: 0;
+            margin: 0;
+        }
+
+        #hero .colom-reverse{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        #hero .grup-text h3{
+            font-size: 30px;
+        }
+
+        .nav {
+            display: none;
+        }
+
+    }
+
+    @media (max-width :297px){
+        #hero .grup-text h3{
+            font-size: 20px;
+        }
+
+        #hero .image-hero img{
+            margin-bottom: 10px;
+        }
+
+        #hero .grup-text p{
+            line-height: 23px;
+        }
+    }
+
+   @media (max-width : 275px) {
+	
+	#hero .btn-grup {
+    flex-direction: column;
+    align-items: start;
+}
+
+#hero .box .btn-play {
+    margin-left: 0;
+    margin-top: 12px;
+}
+
+#hero .box span {
+    margin-top: 12px;
+}
+
+
+   }
+
+    @media (max-width:197px){
+
+        #hero .image-hero img{
+           margin-bottom: 0;
+           margin-top: 0;
+        }
+
+        #hero .grup-text span{
+            font-size: 10px;
+        }
+
+        #hero .grup-text h3{
+            font-size: 20px;
+        }
+
+        #hero .grup-text p{
+            font-size: 10px;
+            line-height: 15px;
+            text-align: justify;
+            
+        }
+    }
+/* end phone style */

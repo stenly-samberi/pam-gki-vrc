@@ -1,0 +1,22 @@
+.nav ul {
+    list-style-type : none;
+    display:flex;
+    justify-items:center;
+    align-items:center;
+}
+
+.nav ul li{
+    margin : 12px;
+}
+
+
+.horizontal div input[type=text]{
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: arial;
+    color: #333;
+    width: 200px;
+}
+
