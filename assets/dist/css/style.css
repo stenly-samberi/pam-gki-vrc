@@ -47,6 +47,10 @@ a{
     text-decoration: none;
 }
 
+.primary-text{
+    color: var(--bs-orange);
+}
+
 /* end button costum */
 
 /* body style */
