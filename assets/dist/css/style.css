@@ -158,8 +158,9 @@ nav ul .btnCall:hover{
 }
 
 #hero .image-hero img{
-   max-width: 80%;
-   border-bottom-right-radius : 10px;
+   max-width: 100%;
+   margin-bottom: 20px;
+   border-radius: 10px;
   
 }
 
