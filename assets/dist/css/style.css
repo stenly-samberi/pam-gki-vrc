@@ -49,6 +49,16 @@ a{
 
 .primary-text{
     color: var(--bs-orange);
+    font-style: normal;
+    font-weight: 500;
+}
+
+ul li i{
+    margin-right: 10px;
+}
+
+ul li{
+    margin-bottom: 5px;
 }
 
 /* end button costum */
